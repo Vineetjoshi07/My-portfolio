@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Vineet Joshi</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                            Skill details
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="image" id="vineet">
+                <img src="avatar-(ProfilePictureMaker.com).png"
+                    alt="Vineet Image" width="150" height="150">
+            </div>
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Vineet Joshi</h1>
+                <h4 class="sub-heading">
+                    A computer Science student.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <!-- <button class="btn common-btn">Hire Me</button> -->
+                <!-- <button class="btn ghost-btn">Get Resume</button> -->
+                <div class="download-link">
+                    <a href="VineetJoshiresume.pdf" download="VineetJoshiResume.pdf" button class="btn ghost-btn">Get Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="istockphoto-1130990010-612x612.jpg"
+                                alt="Operating System Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Operating System</h3>
+                        <p class="small-para blue-text">Windows</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="web.png" 
+                                alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Web Development
+                        </h3>
+                        <p class="small-para blue-text">HTML / CSS</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="download.jpeg" alt="cloud Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Cloud Computing</h3>
+                        <p class="small-para blue-text">Cloud services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="download (1).jpeg" 
+                                alt="DBMS Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Database Management System
+                        </h3>
+                        <p class="small-para blue-text">SQL</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="download1.jpeg" 
+                                alt="Python Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Python Programming
+                        </h3>
+                        <p class="small-para blue-text">
+                            Python
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="download (2).jpeg" 
+                                alt="Excel Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Excel
+                            </h3>
+                        <p class="small-para blue-text">Excel dashboard , Formatting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+            Hi, I'm Vineet Joshi, a passionate BCA student with intermediate-level skills in Web Development,
+            Python Programming, Excel, Cloud Computing, Operating Systems, and Database Management.
+            I enjoy building real-world projects like dashboards, automation scripts, and data-driven solutions. 
+            I'm constantly exploring new technologies and love turning ideas into practical tools that solve problems. 
+            I'm currently working on a student performance prediction project using Python and Excel.
+            </p>
+            <p>
+            I have a solid understanding of Operating Systems, especially Windows, where I’ve learned key concepts like process management, 
+            memory handling, and file systems. In Cloud Computing, I’m familiar with basic cloud service models (IaaS, PaaS, SaaS), 
+            virtualization, and how cloud platforms support scalable, internet-based services. I also have hands-on experience with Database 
+            Management Systems using SQL, where I can create and manage databases, write complex queries, and work with data using joins, 
+            constraints, and normalization.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="images.jpeg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My skills Details</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-brands fa-windows"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Operating System</h3>
+                        <p class="small-para">
+                            An Operating System (OS) is the main software that helps a computer work. 
+                            It connects the user with the computer hardware and manages all the basic tasks like running programs, 
+                            using memory, saving files, and controlling devices like the keyboard, mouse, and printer. 
+                            It also shows us the screen where we can click and type, called the user interface.
+                        </p>
+                        <p class="small-para">
+                            There are different types of operating systems, such as Windows, Linux, macOS for computers, 
+                            and Android or iOS for phones. Each OS has its own features but all of them help users to use 
+                            computers or devices easily. Learning about operating systems is important because it helps us understand 
+                            how computers work from the inside.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                                Web Development
+                            </h3>
+                        <p class="small-para">
+                            Web Development means creating websites and web applications that people use on the internet. 
+                            It includes everything from designing how a website looks (front-end) to building how it works behind the scenes (back-end). 
+                            Web developers use different programming languages like HTML, CSS, and JavaScript for front-end, and languages like 
+                            PHP, Python, or Node.js for back-end.
+
+                            
+                        </p>
+                        <p class="small-para">
+                            There are three main parts of web development: Front-end (what users see), Back-end (server, database, and logic), 
+                            and Full-stack (both front-end and back-end). Websites can be simple like a blog, or complex like online shopping platforms. 
+                            Learning web development helps us create useful and interactive websites for people all around the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Cloud Computing</h3>
+                        <p class="small-para">
+                            Cloud Computing means using the internet to store and access data, software, 
+                            and services instead of keeping them on a personal computer. It allows users to use resources like storage, 
+                            servers, and applications online without having to buy expensive hardware. Some popular examples of 
+                            cloud services are Google Drive, Dropbox, and Microsoft OneDrive.
+
+                            
+                        </p>
+                        <p class="small-para">
+                            There are three main types of cloud services: IaaS (Infrastructure as a Service), 
+                            PaaS (Platform as a Service), and SaaS (Software as a Service). Cloud computing is helpful because it saves money, 
+                            increases flexibility, and allows people to access their data anytime, from anywhere. It is widely used in businesses, 
+                            education, and everyday life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Database Management System
+                            </h3>
+                        <p class="small-para">
+                            A Database Management System (DBMS) is software that helps store, manage, 
+                            and organize data in a structured way. Instead of keeping data in files, 
+                            we use a DBMS to make it easier to add, edit, delete, and search information. 
+                            Some common DBMS examples are MySQL, Oracle, and Microsoft SQL Server.
+
+                            
+                        </p>
+                        <p class="small-para">
+                            DBMS allows many users to access the data at the same time, while keeping it safe and secure. 
+                            It also helps avoid data errors and makes it easier to manage large amounts of information. 
+                            DBMS is widely used in banks, schools, websites, 
+                            and apps to handle user records and other important data.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                                Python
+                            </h3>
+                        <p class="small-para">
+                            Python is a popular and easy-to-learn programming language used for many types of software development. 
+                            It has a simple and clear syntax, which makes it a great choice for beginners. 
+                            Python is used in various fields like web development, data analysis, 
+                            machine learning, automation, and more.
+
+                            
+                        </p>
+                        <p class="small-para">
+                            Python has many built-in functions and libraries that help developers write powerful programs with less code. 
+                            Some popular libraries include NumPy for math, Pandas for data, and Flask or Django for web development. 
+                            Because of its flexibility and wide usage, Python is one of the most in-demand programming languages today.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-file-excel"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Ms Excel
+                            </h3>
+                        <p class="small-para">
+                            Microsoft Excel is a powerful spreadsheet software used to organize, analyze, and present data. 
+                            It allows users to enter data in rows and columns, perform calculations using formulas, 
+                            and create charts or graphs to visualize the information. Excel is commonly used in offices, 
+                            schools, and businesses for tasks like budgeting, data entry, and report creation.
+
+                            
+                        </p>
+                        <p class="small-para">
+                            Excel also includes features like functions, pivot tables, 
+                            and conditional formatting that make data analysis easier and faster. 
+                            It helps users find patterns, make decisions, and create dashboards to display results in a clear way. 
+                            Learning Excel is very useful for data analysis and many other professional tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                        placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                        placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                        placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                            placeholder="Write your message" 
+                            name="message" id="" cols="30"
+                            rows="10">
+                    </textarea>
+                    <input class="form-btn btn common-btn" 
+                        type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL :</h5>
+                    <p class="contact-text">vineetjoshi9876@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE :</h5>
+                    <p class="contact-text">+91 766816418</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">Linkdin :</h5>
+                    <p class="contact-text">@VineetJoshi</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS :</h5>
+                    <p class="contact-text">Barechhina</p>
+                    <p>Almora (263624)</p>
+                    <p>Uttarakhand,India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2023 All rights reserved |
+                This portfolio website template is created 
+                by Vineet.
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/vineet-joshi-b04204272">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+    integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+<script src="script.js"></script>
+</body>
+
+</html>
